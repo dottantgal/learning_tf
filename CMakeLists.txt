@@ -168,8 +168,10 @@ target_link_libraries(turtle_tf_broadcaster ${catkin_LIBRARIES})
 add_executable(turtle_tf_listener src/turtle_tf_listener.cpp)
 target_link_libraries(turtle_tf_listener ${catkin_LIBRARIES})
 
-add_executable(turtle_tf_listener1 src/turtle_tf_listener1.cpp)
-target_link_libraries(turtle_tf_listener1 ${catkin_LIBRARIES})
+add_executable(turtle_tf_broadcasterX src/turtle_tf_broadcasterX.cpp)
+target_link_libraries(turtle_tf_broadcasterX ${catkin_LIBRARIES})
 
-add_executable(turtle_tf_test src/turtle_tf_test.cpp)
-target_link_libraries(turtle_tf_test ${catkin_LIBRARIES})
+add_executable(turtle_tf_listenerX src/turtle_tf_listenerX.cpp)
+target_link_libraries(turtle_tf_listenerX ${catkin_LIBRARIES})
+
+
